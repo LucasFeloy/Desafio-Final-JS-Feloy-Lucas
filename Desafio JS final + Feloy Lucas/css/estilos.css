@@ -1,0 +1,160 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+
+    background-image: linear-gradient(to top right, red, orange);
+
+}
+
+.logoImagen {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+
+}
+
+.logoImagen img {
+    height: 40%;
+    width: 40%;
+}
+
+.reglas {
+    font-size: 2.5rem;
+    font-family: "Nova Slim";
+    color: black;
+    padding: 30px;
+    text-shadow: 0px 2px whitesmoke;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.nomJugador {
+    font-family: "Nova Slim";
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.nomJugador input {
+    text-align: center;
+    width: 50%;
+    border-radius: 20px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 2rem;
+}
+
+h1 {
+    font-family: "Nova Slim";
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    color: black;
+    font-weight: bold;
+    font-size: 3rem;
+    text-shadow: 0px 2px whitesmoke;
+}
+
+h2 {
+    font-family: "Nova Slim";
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    color: black;
+    font-weight: bolder;
+    text-shadow: 0px 2px whitesmoke;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.img img {
+    width: 15%;
+    height: 15%;
+} 
+
+.img img.seleccionado {
+    border: 5px solid black;
+}
+
+#caballeros {
+    padding: 30px;
+}
+
+
+#caballeros div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+img:hover {
+    transform: scale(110%);
+}
+
+.btn {
+    background-color: lightgray;
+    border-radius: 20px;
+    border-color: black;
+    border-width: 3px;
+    font-size: 1.5rem;
+    font-family: "Nova Slim";
+    font-weight: bold;
+    padding: 20px;
+
+
+
+}
+
+.imgSantos {
+    border: 3px black solid;
+
+}
+
+#tabla {
+    display: flex;
+    justify-content: center;
+}
+
+.tabPuntos td {
+    font-family: "Nova Slim";
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    padding: 30px;
+    text-shadow: 0px 2px whitesmoke;
+    border-collapse: collapse;
+    border: 4px black solid;
+    padding: 10px;
+}
+.tabPuntosDos td {
+    font-family: "Nova Slim";
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    padding: 30px;
+    text-shadow: 0px 2px whitesmoke;
+    border-collapse: collapse;
+    border: 4px black solid;
+    padding: 10px;
+}
+
+.listaPuntos{
+    font-family: "Nova Slim";
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    padding: 30px;
+    color: black;
+    font-weight: bolder;
+    text-shadow: 0px 2px whitesmoke;
+    text-align: center;
+    font-size: 2.5rem;
+    list-style-type: none;
+}
+

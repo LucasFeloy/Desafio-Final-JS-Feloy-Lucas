@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Slim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Proyecto Final</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="logoImagen"><img src="imagenes/saintSeiya.png" alt="logo"></div>
+            <div>
+                <p class="reglas"> Reglas del juego:Debes elegir 5 (cinco) caballeros para tu equipo. El puntaje
+                    final
+                    de
+                    tu equipo se conformará de acuerdo a los niveles de poder de cada caballero¡¡¡A jugar!!!</p>
+            </div>
+        </header>
+        <section id="jugador">
+            <div>
+                <h1>ELIGE TU EQUIPO</h1>
+            </div>
+        </section>
+        <section id="caballeros">
+            <h2>CABALLEROS DE BRONCE</h2>
+            <div id="bronce" class="img"></div>
+            <H2>CABALLEROS DE PLATA</H2>
+            <div id="plata" class="img"></div>
+            <H2>CABALLEROS DE ORO</H2>
+            <div id="oro" class="img"></div>
+            <H2>MARINAS</H2>
+            <div id="marina" class="img"></div>
+            <H2>ESPECTROS</H2>
+            <div id="espectro" class="img"></div>
+            <H2>DIOSES</H2>
+            <div id="dios" class="img"></div>
+            <h2>EQUIPO</h2>
+            <div id="tabla">
+                <table id="tabPuntaje" class="tabPuntos">
+                    <tr>
+                        <td>CABALLERO</td>
+                        <td>SIGNO</td>
+                        <td>CLASE</td>
+                    </tr>
+                </table>
+            </div>
+            <div><button id="reseteo" class="btn">BORRAR SELECCION</button></div>
+        </section>
+        <section id="puntaje">
+            <div>
+                <h2>PUNTAJES MAS ALTOS</h2>
+                <ul class="listaPuntos" id="contenedorPuntos">
+
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!--<script src="js/caballeros.js"></script>-->
+    <script type="module" src="js/principal.js"></script>
+    <!--<script src="js/main.js" type="module"></script>-->
+
+</body>
+
+</html>
